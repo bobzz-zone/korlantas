@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include korlantas *.css
+recursive-include korlantas *.csv
+recursive-include korlantas *.html
+recursive-include korlantas *.ico
+recursive-include korlantas *.js
+recursive-include korlantas *.json
+recursive-include korlantas *.md
+recursive-include korlantas *.png
+recursive-include korlantas *.py
+recursive-include korlantas *.svg
+recursive-include korlantas *.txt
+recursive-exclude korlantas *.pyc
