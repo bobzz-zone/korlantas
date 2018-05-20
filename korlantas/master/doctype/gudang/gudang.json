@@ -9,7 +9,7 @@
  "custom": 0, 
  "docstatus": 0, 
  "doctype": "DocType", 
- "document_type": "", 
+ "document_type": "Setup", 
  "editable_grid": 1, 
  "engine": "InnoDB", 
  "fields": [
@@ -54,7 +54,7 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
- "modified": "2018-05-19 14:58:09.630834", 
+ "modified": "2018-05-20 16:56:02.436166", 
  "modified_by": "Administrator", 
  "module": "Master", 
  "name": "Gudang", 
