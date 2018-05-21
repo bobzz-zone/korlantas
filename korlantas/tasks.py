@@ -46,7 +46,7 @@ def bufferCheck():
 	
 	for key in total_request:
 		items=[]
-		gudang = key
+		gudang = key:
 		for row in total_request[key]:
 			items.append({"document":row[0],"jumlah":row[1]})
 			doc = frappe.get_doc({
