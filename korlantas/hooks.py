@@ -90,13 +90,14 @@ app_license = "MIT"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
+scheduler_events = {
 # 	"all": [
 # 		"korlantas.tasks.all"
 # 	],
-# 	"daily": [
-# 		"korlantas.tasks.daily"
-# 	],
+	"daily": [
+		"korlantas.tasks.updatePrice",
+		"korlantas.tasks.bufferCheck"
+	],
 # 	"hourly": [
 # 		"korlantas.tasks.hourly"
 # 	],
@@ -106,7 +107,7 @@ app_license = "MIT"
 # 	"monthly": [
 # 		"korlantas.tasks.monthly"
 # 	]
-# }
+}
 
 # Testing
 # -------

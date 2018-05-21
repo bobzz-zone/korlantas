@@ -3,6 +3,7 @@
 
 frappe.ui.form.on('Input Stok', {
 	refresh: function(frm) {
-
+		cur_frm.add_fetch("document", "beli", "beli");
+		cur_frm.add_fetch("document", "jual", "pnbp");
 	}
 });
